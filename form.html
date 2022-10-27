@@ -1,0 +1,43 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Desafiados</title>
+    <link href="crud-front.css" rel="stylesheet" media="all" />
+</head>
+<body>
+    <h1>Cadastro Funcionários</h1>
+    
+    <div class="content">
+        <div class="contentIn">
+    <script src="post.js"></script>
+    <form onsubmit="cadastraUsuario()">
+        <label for="nome">Nome</label>
+        <br>
+        <input class="input" name="nome" id="nome" type="text">
+        <br><br>
+        <label for="email">Email</label>
+        <br>
+        <input class="input" name="email" id="email" type="text">
+        <br><br>
+        <label for="cargo">Cargo</label>
+        <br>
+        <input class="input" name="cargo" id="cargo" type="text">
+        <br><br>
+        <a href="index.html">
+            <button class="formButton" type="button">Visualização</button>
+            </a>
+        <button class="formButton" type="submit" onclick="location.reload(), alert('Funcionário cadastrado com sucesso!')">Enviar</button>
+
+        </div>
+    </div>
+        
+
+        
+    </form>
+
+
+</body>
+</html>
